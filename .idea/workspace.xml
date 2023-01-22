@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4ee6876-476e-4e1b-9d14-cf23dd32ba8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/the/sum/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +53,35 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FlinkDataSet01">
+  <component name="RunManager" selected="Application.StreamWordCount">
+    <configuration name="BoundedStreamWordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="the.sum.BoundedStreamWordCount" />
+      <module name="FlinkProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="the.sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlinkDataSet01" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="the.sum.FlinkDataSet01" />
+      <module name="FlinkProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="the.sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamWordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="the.sum.StreamWordCount" />
       <module name="FlinkProject" />
       <extension name="coverage">
         <pattern>
@@ -91,6 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamWordCount" />
+        <item itemvalue="Application.BoundedStreamWordCount" />
         <item itemvalue="Application.FlinkDataSet01" />
         <item itemvalue="Application.test" />
       </list>
@@ -127,12 +146,24 @@
       <option name="presentableId" value="Default" />
       <updated>1674397989993</updated>
       <workItem from="1674397991579" duration="1807000" />
-      <workItem from="1674399923101" duration="363000" />
+      <workItem from="1674399923101" duration="1875000" />
     </task>
+    <task id="LOCAL-00001" summary="The_sum 01">
+      <created>1674400361044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674400361044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The_sum 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="The_sum 01" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
